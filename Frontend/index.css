@@ -25,6 +25,15 @@ body {
     color: #f7f9fc;
 }
 
+.image img {
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    margin-top: -40px;
+    position: relative;
+    z-index: 10;
+    text-align: right;
+}
+
 h1,
 h2,
 h3,
@@ -44,9 +53,16 @@ img {
 }
 
 .container {
+    /* display: flex; */
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Header */
